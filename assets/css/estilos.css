@@ -1,0 +1,62 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+ 
+/* Hero Section */
+#Hero-Section {
+  height: 350px;
+}
+
+/* Mis trabajos */
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+/* Contacto */
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+
+}
+
+/* mis clases css */
+.no-padd
+{
+  padding: 0px;
+}
+.img-tam{
+  height: 75px;
+  width: 90px;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 50%;
+}
+.img-tam2{
+  height: 250px;
+  width: 100%;
+  padding: 1px;
+  margin: 0px;
+}
+
+.img-tam-carr img {
+  width: 50%;
+  height: 300px;
+  max-height: 300px;
+  border-radius: 3%;
+  margin: 20px auto;
+  padding:  20px;
+}
+ 
+ 
